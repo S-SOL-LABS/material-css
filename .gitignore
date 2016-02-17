@@ -11,6 +11,8 @@ app/*.woff
 app/*.eot
 app/*.ttf
 app/*.woff2
+app/*.svg
+
 
 # Exclude IDE project folders
 .idea

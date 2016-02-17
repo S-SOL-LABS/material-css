@@ -10,7 +10,7 @@ module.exports = {
   output: {
      path: 'app/',
      publicPath: 'app',
-      filename: './app/prod.js'
+      filename: 'prod.js'
   },
    plugins: [
    // new webpack.optimize.UglifyJsPlugin({minimize: true}),
