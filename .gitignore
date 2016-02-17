@@ -7,6 +7,10 @@ coverage
 lib
 icon-builder/js
 icon-builder/jsx
+app/*.woff
+app/*.eot
+app/*.ttf
+app/*.woff2
 
 # Exclude IDE project folders
 .idea

@@ -4,7 +4,8 @@
   "description": "mise en oeuvre d'une implementation css de material design",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-watch": "webpack --progress --colors --watch",
+    "server": "webpack-dev-server --progress --colors --port 3000 --content-base app/"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,13 @@
   },
   "homepage": "https://github.com/S-SOL-LABS/material-css#readme",
   "dependencies": {
-    "materialize-css": "^0.97.5"
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.8.5",
+    "jquery": "^2.2.0",
+    "materialize-css": "^0.97.5",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.13",
+    "webpack-dev-server": "^1.14.1"
   }
 }
